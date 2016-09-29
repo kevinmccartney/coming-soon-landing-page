@@ -20,7 +20,7 @@
     <meta name="url" content="{{ site.protocol | append: site.base_url }}">
     <base href="{{ site.protocol | append: site.base_url }}" target="_blank">
     {% if site.site_support contains "humans" %}
-        <link rel="author" href="humans.txt">
+        <link rel="author" href="{{ site.protocol | append: site.base_url }}/humans.txt">
     {% endif %}
     <title>{{ site.title }}</title>
 

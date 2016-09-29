@@ -1,0 +1,8 @@
+/* TEAM */
+Developer: Kevin McCartney
+Email: kevinmmccartney@gmail.com
+Twitter: @kevinmccartney
+Location: Columbus, OH, USA
+
+/* THANKS */
+- Josh Buchea (https://github.com/joshbuchea)
