@@ -9,7 +9,6 @@
 
     <!-- general -->
     <meta chaset="utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% if site.google_verification_token %}
         <meta name="google-site-verification" content="{{ site.google_verification_token }}">
@@ -18,7 +17,6 @@
     <meta name="subject" content="{{ site.subject }}">
     <meta name="generator" content="Jekyll">
     <meta name="url" content="{{ site.protocol | append: site.base_url }}">
-    <base href="{{ site.protocol | append: site.base_url }}" target="_blank">
     {% if site.site_support contains "humans" %}
         <link rel="author" href="{{ site.protocol | append: site.base_url }}/humans.txt">
     {% endif %}
@@ -93,4 +91,8 @@
         <meta name="nightmode" content="disable">
         <meta name="wap-font-scale" content="no">
     {% endif %}
+    <link rel="stylesheet" href="/assets/styles/bootstrap.css">
+    <script src="/assets/scripts/bootstrap.js"></script>
+    <script src="/assets/scripts/jquery-3.1.1.js"></script>
+
 </head>
