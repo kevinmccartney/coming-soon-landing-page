@@ -1,5 +1,31 @@
-# Enter the url of your site here
-url: http://comingsoon.dev
+# Set the http or https
+protocol: "http://"
+# the site url without the protocol
+base_url: "comingsoon.dev"
 
-# This will be the title tag
+# Who the site is for
+company: "Kevin McCartney"
+
+# Title for the page
 title: "Coming soon | A landing page template"
+
+# Meta information
+subject: "Subject"
+description: "Description"
+
+# Verification code for Google Search Console
+google_verification_token: "Testing"
+
+# social media accounts. Only enter the handles, not the full URL
+social:
+  - twitter: "test"
+  - google_plus: "test"
+
+# the slug for your mask icon
+mask_icon: "/assets/mask-icon.svg"
+
+# defines the site's primary branding color
+brand_primary: "red"
+
+# Adds support for various meta features in the header
+site_support: ["humans", "favicons", "open_graph", "schema", "twitter_card",  "mask_icon", "android_banner", "international_browsers"]
