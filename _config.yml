@@ -10,16 +10,16 @@ company: "Kevin McCartney"
 title: "Coming soon | A landing page template"
 
 # Meta information
-subject: "Subject"
-description: "Description"
+subject: "A sample coming soon page"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec rhoncus tellus. Vestibulum ac leo ut ipsum faucibus consequat. Quisque vel."
 
 # Verification code for Google Search Console
-google_verification_token: "Testing"
+google_verification_token: "test"
 
 # social media accounts. Only enter the handles, not the full URL
 social:
-  - twitter: "test"
-  - google_plus: "test"
+  - twitter: "kevinmccartney"
+  - google_plus: "109791538925902402449"
 
 # the slug for your mask icon
 mask_icon: "/assets/mask-icon.svg"
