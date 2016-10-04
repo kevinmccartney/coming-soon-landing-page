@@ -1,2 +1,8 @@
 # Static site output
 _site
+
+# don't track node modules
+node_modules
+
+# don't track built styles
+assets/styles/main.css
