@@ -1,8 +1,3 @@
-# Set the http or https
-protocol: "http://"
-# the site url without the protocol
-base_url: "127.0.0.1:4000"
-
 # Who the site is for
 company: "Kevin McCartney"
 
@@ -31,4 +26,4 @@ brand_primary: "red"
 site_support: ["humans", "favicons", "open_graph", "schema", "twitter_card",  "mask_icon", "android_banner", "international_browsers"]
 
 # use only the slugs for these values
-background_image: "/assets/img/background.jpg"
+background_image: "../assets/img/background.jpg"
