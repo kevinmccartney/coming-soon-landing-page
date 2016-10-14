@@ -1,23 +1,46 @@
 {
-  "name": "coming-soon-landing-page",
-  "version": "0.0.1",
-  "description": "A component-based landing page built on top of Jekyll.",
-  "main": "gulpfile.js",
+  "name": "kevinmccartney.is",
+  "version": "1.0.0",
+  "description": "my personal portfolio site",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.17.2",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jshint": "^2.0.1",
+    "gulp-order": "^1.1.1",
+    "gulp-print": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "run-sequence": "^1.2.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinmccartney/coming-soon-landing-page.git"
+    "url": "git+https://github.com/kevinmccartney/kevinmccartney.is.git"
   },
+  "keywords": [
+    "portfolio",
+    "jekyll",
+    "gulp"
+  ],
   "author": "Kevin McCartney",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevinmccartney/coming-soon-landing-page/issues"
+    "url": "https://github.com/kevinmccartney/kevinmccartney.is/issues"
   },
-  "homepage": "https://github.com/kevinmccartney/coming-soon-landing-page#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2"
-  }
+  "homepage": "https://github.com/kevinmccartney/kevinmccartney.is#readme"
 }
