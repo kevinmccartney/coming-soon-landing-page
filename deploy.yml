@@ -1,0 +1,8 @@
+ource: "src"
+destination: "dist"
+
+protocol: "https://"
+domain: "comingsoon.kevinmccartney.is"
+
+keep_files: ['assets', '.gitkeep']
+permalink: pretty
